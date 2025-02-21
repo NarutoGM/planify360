@@ -1,20 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Button, StyleSheet, Text, View } from 'react-native';
+import ButtonLoginGoogle from './components/ButtonLoginGoogle'; // Adjust the path as necessary
+import "./global.css"
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start sworking on yoursss app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ButtonLoginGoogle />
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
