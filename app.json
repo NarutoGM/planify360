@@ -2,7 +2,6 @@
   "expo": {
     "name": "planify360",
     "slug": "planify360",
-    "scheme": "planify360",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,18 +14,23 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.planify360.app"
+      "bundleIdentifier": "com.anonymous.planify360"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.planify360.app"
+      "package": "com.anonymous.planify360"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a954790c-75a8-4a7d-8716-91608867f767"
+      }
     }
   }
 }
